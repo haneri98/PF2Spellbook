@@ -1,0 +1,64 @@
+{
+  "list": [
+    {
+      "level": "1",
+      "name": "Feather Fall",
+      "imageName": "Feather_Fall.png",
+      "school": "Abjuration"
+    },
+    {
+      "level": "1",
+      "name": "Heal",
+      "imageName": "Heal.png",
+      "school": "Necromancy"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Produce Flame",
+      "imageName": "Produce_Flame.png",
+      "school": "Evocation"
+    },
+    {
+      "level": "2",
+      "name": "Scorching Ray",
+      "imageName": "Scorching_Ray.png",
+      "school": "Evocation"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Ghost Sound",
+      "imageName": "Ghost_Sound.png",
+      "school": "Illusion"
+    },
+    {
+      "level": "3",
+      "name": "Fireball",
+      "imageName": "Fireball.png",
+      "school": "Evocation"
+    },
+    {
+      "level": "1",
+      "name": "Mage Armor",
+      "imageName": "Mage_Armor.png",
+      "school": "Abjuration"
+    },
+    {
+      "level": "1",
+      "name": "Jump",
+      "imageName": "Jump.png",
+      "school": "Transmutation"
+    },
+    {
+      "level": "1",
+      "name": "Invisible Item",
+      "imageName": "Invisible_Item.png",
+      "school": "Illusion"
+    },
+    {
+      "level": "1",
+      "name": "Illusory Disguise",
+      "imageName": "Illusory_Disguise.png",
+      "school": "Illusion"
+    }
+  ]
+}

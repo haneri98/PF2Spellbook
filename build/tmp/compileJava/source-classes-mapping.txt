@@ -1,0 +1,11 @@
+spellbookgen/model/SpellList.java
+ spellbookgen.model.SpellList
+spellbookgen/Application.java
+ spellbookgen.Application
+spellbookgen/model/Spell.java
+ spellbookgen.model.Spell
+spellbookgen/services/SpellGenerator.java
+ spellbookgen.services.SpellGenerator
+ spellbookgen.services.SpellGenerator$1
+spellbookgen/controller/IndexController.java
+ spellbookgen.controller.IndexController

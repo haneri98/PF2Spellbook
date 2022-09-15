@@ -1,0 +1,6 @@
+.spell-image {
+    position:absolute;
+    top:1%;
+    right:1%;
+    z-index: 99;
+}

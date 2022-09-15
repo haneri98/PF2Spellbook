@@ -1,0 +1,11 @@
+{
+  "spells": {
+    "1": {
+      "level": "cantrip",
+      "name": "Mage Hand",
+      "traits": ["Cantrip", "Evocation"],
+      "cast": ["2 Acts", "somatic", "verbal"],
+      "source": ""
+    }
+  }
+}
