@@ -6,6 +6,3 @@ gradle
 gradlew
 gradlew.bat
 node_modules
-src/images
-src/imagesCropped
-src/json

@@ -2,10 +2,164 @@
   "list": [
     {
       "level": "Cantrip",
-      "name": "Daze",
-      "imageName": "Daze.png",
+      "name": "Read Aura",
+      "imageName": "Read_Aura.png",
+      "school": "Divination",
+      "id": "246"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Detect Magic",
+      "imageName": "Detect_Magic.png",
+      "school": "Divination",
+      "id": "66"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Message",
+      "imageName": "Message.png",
+      "school": "Illusion",
+      "id": "190"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Mage Hand",
+      "imageName": "Mage_Hand.png",
+      "school": "Evocation",
+      "id": "177"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Light",
+      "imageName": "Light.png",
+      "school": "Evocation",
+      "id": "171"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Prestidigitation",
+      "imageName": "Prestidigitation.png",
+      "school": "Evocation",
+      "id": "229"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Sigil",
+      "imageName": "Sigil.png",
+      "school": "Transmutation",
+      "id": "286"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Ray of Frost",
+      "imageName": "Ray_of_Frost.png",
+      "school": "Evocation",
+      "id": "245"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Gale Blast",
+      "imageName": "Gale_Blast.png",
+      "school": "Evocation",
+      "id": "917"
+    },
+    {
+      "level": "Cantrip",
+      "name": "Shield",
+      "imageName": "Shield.png",
+      "school": "Abjuration",
+      "id": "280"
+    },
+    {
+      "level": "1",
+      "name": "Illusory Disguise",
+      "imageName": "Illusory_Disguise.png",
+      "school": "Illusion",
+      "id": "159"
+    },
+    {
+      "level": "1",
+      "name": "Pest Form",
+      "imageName": "Pest_Form.png",
+      "school": "Transmutation",
+      "id": "217"
+    },
+    {
+      "level": "1",
+      "name": "Feather Fall",
+      "imageName": "Feather_Fall.png",
+      "school": "Abjuration",
+      "id": "111"
+    },
+    {
+      "level": "1",
+      "name": "Burning Hands",
+      "imageName": "Burning_Hands.png",
+      "school": "Evocation",
+      "id": "30"
+    },
+    {
+      "level": "1",
+      "name": "Invisible Item",
+      "imageName": "Invisible_Item.png",
+      "school": "Illusion",
+      "id": "700"
+    },
+    {
+      "level": "1",
+      "name": "Sleep",
+      "imageName": "Sleep.png",
       "school": "Enchantment",
-      "id": "61"
+      "id": "288"
+    },
+    {
+      "level": "1",
+      "name": "Alarm",
+      "imageName": "Alarm.png",
+      "school": "Abjuration",
+      "id": "7"
+    },
+    {
+      "level": "2",
+      "name": "Dispel Magic",
+      "imageName": "Dispel_Magic.png",
+      "school": "Abjuration",
+      "id": "78"
+    },
+    {
+      "level": "2",
+      "name": "Comprehend Language",
+      "imageName": "Comprehend_Language.png",
+      "school": "Divination",
+      "id": "46"
+    },
+    {
+      "level": "2",
+      "name": "Scorching Ray",
+      "imageName": "Scorching_Ray.png",
+      "school": "Evocation",
+      "id": "992"
+    },
+    {
+      "level": "2",
+      "name": "Invisibility",
+      "imageName": "Invisibility.png",
+      "school": "Illusion",
+      "id": "164"
+    },
+    {
+      "level": "3",
+      "name": "Fireball",
+      "imageName": "Fireball.png",
+      "school": "Evocation",
+      "id": "119"
+    },
+    {
+      "level": "3",
+      "name": "Curse of Lost Time",
+      "imageName": "Curse_of_Lost_Time.png",
+      "school": "Transmutation",
+      "id": "683"
     }
   ]
 }
