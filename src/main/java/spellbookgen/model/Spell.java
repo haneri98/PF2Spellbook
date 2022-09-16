@@ -14,17 +14,22 @@ public class Spell {
     public String name;
     public String imageName;
     public String school;
+    public String id;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Spell spell = (Spell) o;
-        return Objects.equals(level, spell.level) && Objects.equals(name, spell.name) && Objects.equals(imageName, spell.imageName) && Objects.equals(school, spell.school);
+        return Objects.equals(level, spell.level)
+                && Objects.equals(name, spell.name)
+                && Objects.equals(imageName, spell.imageName)
+                && Objects.equals(school, spell.school)
+                && Objects.equals(id, spell.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(level, name, imageName, school);
+        return Objects.hash(level, name, imageName, school, id);
     }
 }

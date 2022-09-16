@@ -45,6 +45,7 @@ public class SpellGenerator {
             spell.name = spellName;
             spell.level = spellLevel;
             spell.imageName = spell.name.replace(" ", "_") + ".png";
+            spell.id = url.replaceAll("[^0-9]","");
 
             Map<String, String> traitsAndLinks = scrapeTraitsAndLinks(scrape);
             for (String trait : traitsAndLinks.keySet()) {

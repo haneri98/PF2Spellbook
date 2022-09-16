@@ -100,12 +100,15 @@
 
         div2 = document.createElement("div")
         div.appendChild(div2)
+        anchor = document.createElement("a")
+        anchor.href="https://2e.aonprd.com/Spells.aspx?ID=" + spell["id"]
         span = document.createElement("span")
         span.classList.add("d-inline")
         span.innerText = spell["name"] + " (" + spell["school"].substr(0,3) + ")"
         span.onmouseover = function(){displayImage(spell)}
         span.onmouseout = function(){hideImage(spell)}
-        div2.appendChild(span)
+        anchor.appendChild(span)
+        div2.appendChild(anchor)
         div.classList.remove("d-none")
 
         img = document.createElement("img")
