@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="spellbook.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/ae247df64c.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <title>Book of Spells</title>
@@ -20,7 +19,7 @@
                 <div class="input-group">
                     <input type="text" class="form-control" id="addSpellId" placeholder="Add Spell">
                     <div class="input-group-append">
-                        <button class="btn btn-secondary" type="button" onclick="requestSpell()">Button</button>
+                        <button class="btn btn-secondary" type="button" onclick="requestSpell()">Add Spell</button>
                     </div>
                 </div>
             </form>
@@ -102,6 +101,7 @@
         div.appendChild(div2)
         anchor = document.createElement("a")
         anchor.href="https://2e.aonprd.com/Spells.aspx?ID=" + spell["id"]
+        anchor.classList.add("text-decoration-none" ,"text-dark")
         span = document.createElement("span")
         span.classList.add("d-inline")
         span.innerText = spell["name"] + " (" + spell["school"].substr(0,3) + ")"

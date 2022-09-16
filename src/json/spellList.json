@@ -1,0 +1,11 @@
+{
+  "list": [
+    {
+      "level": "Cantrip",
+      "name": "Daze",
+      "imageName": "Daze.png",
+      "school": "Enchantment",
+      "id": "61"
+    }
+  ]
+}
