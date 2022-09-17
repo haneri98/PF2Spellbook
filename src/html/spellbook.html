@@ -125,6 +125,7 @@
         if (cb.checked) {
             img = document.getElementById(spell["name"] + "img")
             img.classList.remove("d-none")
+            img.style.top = (document.documentElement.scrollTop + 10) + "px"
         }
     }
 
